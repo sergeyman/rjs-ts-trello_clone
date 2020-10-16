@@ -2,3 +2,18 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+/* Added */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
